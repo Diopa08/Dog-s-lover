@@ -1,0 +1,25 @@
+<div class="container pt-5">
+    <div class="d-flex flex-column text-center mb-5">
+        <h4 class="text-secondary mb-3">Chien à vendre</h4>
+        <h1 class="display-4 m-0"><span class="text-primary">Disponible</span> actuellement</h1>
+    </div>
+    <div class="d-flex">
+        <div class="row pb-3">
+            <div class="col-lg-4 mb-4" *ngFor="let note of notes">
+                <div class="card border-0 mb-2">
+                    <img class="card-img-top" [src]="note.img" alt="">
+                    <div class="card-body bg-light p-4">
+                        <div class="annonce-details">
+                            <p>Nom du Chien: {{note.nom}}</p>
+                            <p>Race: {{note.race}}</p>
+                            <p>Âge: {{note.age}}</p>
+                            <p>Description: {{note.description}}</p>
+                            <p>Prix: {{note.prix}}</p>
+                        </div>
+                        <a class="font-weight-bold" href="">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
