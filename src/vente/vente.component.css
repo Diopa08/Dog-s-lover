@@ -1,1 +1,15 @@
 @import url('../styles.css');
+.btn-primary{
+    background-color:#E17E23;
+    border-color: #E17E23;
+  }
+  .btn-secondary{
+    background-color:#65C178;
+    border-color: #65C178;
+  }
+  .text-primary{
+    color: #E17E23 !important;
+}
+.text-secondary{
+    color: #65C178 !important;
+}

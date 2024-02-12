@@ -19,19 +19,19 @@ export class CarouselComponent implements OnInit {
   ngOnInit(): void {
     this.slides[0] = {
       id: 0,
-      src: 'assets/about-1.jpg',
+      src: 'assets/malinoisCarousel.jpg',
       title: 'Ventes de chiens',
       subtitle: 'Nous vous fournisons des chiens de race pures'
     };
     this.slides[1] = {
       id: 1,
-      src: 'assets/about-2.jpg',
+      src: 'assets/rottweilerCarousel.jpg',
       title: 'Toilettes pour chiens',
       subtitle: 'Votre chiens merite le meilleur'
     }
     this.slides[2] = {
       id: 2,
-      src: 'assets/about-3.jpg',
+      src: 'assets/bergerCarousel.jpg',
       title: 'Garder votre chien heureux et en forme',
       subtitle: 'Votre chiens merite le meilleur'
     }
