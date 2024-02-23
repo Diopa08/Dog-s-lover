@@ -10,6 +10,8 @@ import { ServiceComponent } from '../service/service.component';
 import { SouscrireComponent } from '../souscrire/souscrire.component';
 import { ContactComponent } from '../contact/contact.component';
 import { AboutComponent } from '../about/about.component';
+import { DetailsChiensComponent } from '../details-chiens/details-chiens.component';
+import { DetailsChiensCroissementComponent } from '../details-chiens-croissement/details-chiens-croissement.component';
 
 
 
@@ -30,7 +32,9 @@ import { AboutComponent } from '../about/about.component';
      ServiceComponent,
      SouscrireComponent,
      ContactComponent,
-     AboutComponent
+     AboutComponent,
+     DetailsChiensComponent,
+     DetailsChiensCroissementComponent
     ],
     
   templateUrl: './app.component.html',

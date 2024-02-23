@@ -1,0 +1,47 @@
+<div class="container py-5">
+    <div class="row py-5">
+        <div class="col-lg-13 pb-5 pb-lg-0 px-3 px-lg-5" *ngIf="chien">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">{{chien.nom}}</h4>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{{chien.img}}" class="img-fluid rounded" alt="{{chien.nom}}">
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Race:</strong> {{chien.race}}</p>
+                            <p><strong>Âge:</strong> {{chien.age}}</p>
+                            <p><strong>Description:</strong> {{chien.description}}</p>
+                            <p><strong>Prix:</strong> {{chien.prix}}</p>
+                            <ul class="list-unstyled">
+                                <li>Caractéristique 1</li>
+                                <li>Caractéristique 2</li>
+                                <li>Caractéristique 3</li>
+                            </ul>
+                            <a href="./vente" class="btn btn-lg btn-primary mt-3 mr-2 mt-md-4 px-4">Acheter </a>
+                            <a (click)="showForm = true" class="btn btn-lg btn-secondary mt-3 mt-md-4 px-4">Prendre un RDV</a>
+        
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="showForm" class="overlay">
+    <div class="form-container">
+        <h2>Prise de rendez-vous</h2>
+        <form>
+          
+            <input type="text" name="name" placeholder="Nom complet" required>
+            <input type="email" name="email" placeholder="Adresse email" required>
+            <input type="date" name="name" placeholder="Date du RDV" required>
+            <input type="time" name="name" placeholder="Heure du RDV" required>
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</div>

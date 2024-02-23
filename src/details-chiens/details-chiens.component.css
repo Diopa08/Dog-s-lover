@@ -1,0 +1,62 @@
+.zoomedImage {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 9999;
+}
+img:hover {
+    transform: scale(1.05);
+}
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur d'arrière-plan semi-transparente */
+    z-index: 9999; /* Assure que l'overlay est au-dessus de tout le contenu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px; /* Largeur maximale du formulaire */
+    width: 100%;
+}
+
+input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color:#E17E23;
+    border-color: #E17E23;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#ff9129;
+    border-color: #E17E23;
+}

@@ -1,0 +1,28 @@
+.custom-bg-color {
+    background-color: #055169 !important;
+    }
+ .text-primary{
+            color: #E17E23 !important;
+        }
+ .btn-primary{
+  background-color:#E17E23;
+  border-color: #E17E23;
+        }
+.btn-primary:hover{
+    background-color:#ff9129;
+    border-color: #E17E23;
+        }
+.text-primary{
+    color: #E17E23 !important;
+        }
+.text-secondary{
+    color: #65C178 !important;
+    }
+    .btn-secondary{
+        background-color:#65C178;
+        border-color: #65C178;
+      }
+      .btn-secondary:hover{
+        background-color:#56a666;
+        border-color: #65C178;
+      }

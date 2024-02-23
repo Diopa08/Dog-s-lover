@@ -31,7 +31,7 @@ export class CarouselComponent implements OnInit {
     }
     this.slides[2] = {
       id: 2,
-      src: 'assets/bergerCarousel.jpg',
+      src: 'assets/bergerCarousel1.jpg',
       title: 'Garder votre chien heureux et en forme',
       subtitle: 'Votre chiens merite le meilleur'
     }
